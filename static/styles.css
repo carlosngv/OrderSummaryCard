@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(204, 211, 233);
+    font-family: 'Roboto', sans-serif;
+}
+.background {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+
+
+.card {
+    background-color: #ffff;
+    border-radius: 0.9rem;
+    box-shadow:
+        0.2px 0px 1.4px rgba(0, 0, 0, 0.02),
+        0.5px 0px 3.3px rgba(0, 0, 0, 0.028),
+        0.9px 0px 6.1px rgba(0, 0, 0, 0.035),
+        1.6px 0px 10.9px rgba(0, 0, 0, 0.042),
+        2.9px 0px 20.5px rgba(0, 0, 0, 0.05),
+        7px 0px 49px rgba(0, 0, 0, 0.07);
+    display: flex;
+    height: 40rem;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+
+    width: 25rem;
+
+}
+
+.card-content {
+
+    bottom: 1rem;
+    column-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    left: 2.5rem;
+    position: relative;
+    width: 80%;
+}
+
+.card p {
+    color: grey;
+}
+
+.card-header {
+    background-image: url(../images/illustration-hero.svg);
+    height: 40%;
+    margin-bottom: 2rem;
+}
+
+
+
+button {
+    background-color: #382AE1;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow:
+        0.2px 0px 1.4px rgba(0, 0, 0, 0.02),
+        0.5px 0px 3.3px rgba(0, 0, 0, 0.028),
+        0.9px 0px 6.1px rgba(0, 0, 0, 0.035),
+        1.6px 0px 10.9px rgba(0, 0, 0, 0.042),
+        2.9px 0px 20.5px rgba(0, 0, 0, 0.05),
+        7px 0px 49px rgba(0, 0, 0, 0.07);
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.9rem;
+}
+
+
+.plan-container {
+    background-color: rgba(204, 211, 233, 0.4);
+    border-radius: .6rem;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 2rem;
+    padding: 1rem;
+}
+.plan-container .title{
+    font-weight: bold;
+}
+
+.plan-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.change {
+    color:#382AE1;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    right: -4rem;
+    text-decoration: underline;
+    top: .6rem;
+}
+
+.sub-title {
+    color: grey;
+}
+
+.m-icon {
+    background-image: url(../images/icon-music.svg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 2rem;
+    position: relative;
+    bottom: .5rem;
+}
